@@ -1,0 +1,133 @@
+.inline-block{
+    display: inline-block;
+    padding: 15px;
+    vertical-align: top;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    padding: 1%;
+    align-items: flex-end;
+    background-color: #315BC6;
+}
+
+.navigation{
+    width: 100%;
+    padding: 30px;
+    background-color: #315BC6;
+    color: white;
+}
+
+.nav ul{
+    width: 50%;
+    margin-left: auto;
+}
+
+.heroImg{
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    height: 600px;
+    padding: 15px;
+}
+
+.content{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translate(0%, 40%);
+}
+
+.footer{
+    background-color: #315BC6;
+    color: white;
+    padding: 50px;
+    width: 100%;
+}
+
+.footer ul{
+   display: inline-block;
+   vertical-align: top;
+   padding: 35px;
+}
+
+.mySkills{
+    font-family: sans-serif;
+    color: #315BC6;
+    text-align: center;
+}
+
+.flexContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #315BC6;
+}
+
+.flexChildren{
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.flexChildren{
+    color: white;
+    font-family: sans-serif;
+}
+
+.workGrid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px 300px;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: #315BC6;
+}
+
+.myWork{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.myWork h1{
+    color: #315BC6;
+}
+
+.myWork p{
+    color: white;
+}
+
+.myWork h4{
+    color: white;
+}
+
+.myWork h3{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #categoryGrid{
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "travel.IO"
+        "village"
+        "SOS"
+        ;
+    }
+}
