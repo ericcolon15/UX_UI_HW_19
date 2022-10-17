@@ -1,1 +1,8 @@
-console.log("your index.js is working correctly")
+$(document).on("ready", function(){
+    function scrollToAnchor(aid){
+        const destination = $(`.myWork${aid}`);
+        $('')
+    }
+});
+
+
