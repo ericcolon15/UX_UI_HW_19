@@ -34,12 +34,14 @@
     margin-left: auto;
 }
 
-.heroImg{
-    margin: 0 auto;
-    width: 50%;
-    background-color: white;
-    height: 600px;
-    padding: 15px;
+.jumbotron{
+background-image: url("../images/Hero.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .content{
